@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Application</h1>
+    </header>
+
+    <section id="register-section">
+        <h2>Register</h2>
+        <form id="register-form">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="quiz-section">
+        <h2>Available Quizzes</h2>
+        <div id="quiz-list">
+        </div>
+    </section>
+
+    <section id="leaderboard-section">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboard-list">
+        </ul>
+    </section>
+
+    <section id="logout-section">
+        <button id="logout-button">Logout</button>
+    </section>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
